@@ -1,0 +1,35 @@
+
+.row-header{
+    margin: 0px auto;
+    padding: 0px auto;
+}
+.row-content{
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+.row-footer{
+    background-color: #AfAfAf;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+.jumbotron
+{
+    padding: 750px 30px 70px 30px;
+    margin: 0px auto;
+    background: #FFFFFF;
+    background: #111 url('../img/1.jpg') center center no-repeat;
+    opacity: 0.5;
+    background-size: cover;
+    overflow: hidden;
+}
+.jumbotron:hover{
+  opacity: 0.8;
+}
+.title{
+  font-family: "neosans regular", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+}
+.navbar{
+  background: black;
+}
