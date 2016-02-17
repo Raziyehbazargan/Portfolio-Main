@@ -10,9 +10,9 @@
     min-height: 400px;
 }
 .row-footer{
-    background-color: #AfAfAf;
+    background-color: #f5f5f5;
     margin: 0px auto;
-    padding: 20px 0px 20px 0px;
+    padding: 10px 0px 10px 0px;
 }
 .jumbotron
 {
@@ -23,6 +23,7 @@
     opacity: 0.5;
     background-size: cover;
     overflow: hidden;
+    box-shadow: 2px 1px 2px #888888;
 }
 .jumbotron:hover{
   opacity: 0.8;
@@ -33,3 +34,19 @@
 .navbar{
   background: black;
 }
+.div_project{
+  border: 1px solid #fbcbcb;
+  height: 250px;
+}
+/*.carousel{
+  background: #1A237E;
+}
+.carousel .item{
+  height: 300px;
+}
+.item img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+}*/
