@@ -52,3 +52,10 @@
   border: 1px solid #fbcbcb;
   height: 250px;
 }
+.well button{
+  margin-bottom: 5px;
+}
+.anchorSpaceBotton{
+  margin-bottom: 15px;
+
+}
