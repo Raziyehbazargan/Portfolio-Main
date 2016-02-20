@@ -59,9 +59,13 @@
   margin-bottom: 15px;
 }
 
-#mainNav{
+#mainNav,#textPageLaod{
   display: none;
 }
 /*#projects{
   background: white url('../img/bgcolor.png') repeat-x center;
+}*/
+/*#profilePic{
+  width: 8%;
+  border-radius: 50%;
 }*/
