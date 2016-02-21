@@ -17,3 +17,13 @@ $('.scroll').click(function() {
    }
  }
 });
+
+
+
+function initMap(){
+  var map;
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: 47.610377, lng: -122.200679},
+    zoom: 8
+  });
+};

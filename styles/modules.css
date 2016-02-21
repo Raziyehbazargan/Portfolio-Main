@@ -5,7 +5,7 @@
 }
 .row-content{
     margin: 0px auto;
-    padding: 50px 0px 50px 0px;
+    padding: 500px 0px 50px 0px;
     border-bottom: 1px ridge;
     min-height: 400px;
 }
@@ -62,7 +62,7 @@
 }
 
 .title{
-  font-family: "neosans regular", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  /*font-family: 'Marck Script', cursive;*/
 }
 .navbar{
   background: black;
@@ -81,6 +81,9 @@
 #mainNav,#textPageLaod{
   display: none;
 }
+#textPageLaod{
+  font-size: 500%;
+}
 /*#projects{
   background: white url('../img/bgcolor.png') repeat-x center;
 }*/
@@ -91,4 +94,8 @@
 .skills{
   color: #ee8e68;
   font-weight: 400;
+}
+#map{
+  width: 100px;
+  height: 100px;
 }
