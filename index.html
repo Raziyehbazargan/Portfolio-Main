@@ -30,9 +30,9 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> About</a></li>
-            <li><a href="#projects"><span class="glyphicon glyphicon-book"></span> Portfolio</a></li>
+            <li><a href="#projects" class="scroll"><span class="glyphicon glyphicon-book"></span> Portfolio</a></li>
             <li><a href="files/Raziyeh_bazargan_CV.pdf"><span class="glyphicon glyphicon-paperclip"></span> Resume</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-earphone"></span> Contact</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#contactModal"><span class="glyphicon glyphicon-earphone"></span> Contact</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="https://github.com/raziyehbazargan" target="_blank"><span class="fa fa-github fa-lg"></span></a></li>
@@ -46,11 +46,27 @@
       </div>
     </nav>
 
+    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Contact Me</h4>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <img id="profilePic" src="img/rozi-profile.jpg" alt="" class="col-md-4"/><br/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <header class="jumbotron">
       <div class="container">
         <div class="row row-header">
           <div class="col-xs-12 col-sm-12">
-            <h1 class="title"> Front End Developer </h1>
+            <h1 class="title"> <span style='color:red;'> F</span>ront End Developer </h1>
             <p id="textPageLaod">I am a web developer from Bellevue, I enjoy building everything from small business sites to rich interactive web apps. If you are a business seeking a web presence or an employer looking to hire, you can get in touch with me here.</p>
             <p style="padding:70px;"></p>
           </div>
