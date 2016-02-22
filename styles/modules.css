@@ -99,7 +99,17 @@
   color: #ee8e68;
   font-weight: 400;
 }
-#map{
-  width: 100px;
+/*#map{
+  width: 500px;
   height: 100px;
+}*/
+.modal-header{
+  background-color: #1F3642;
+  color: #FFE2B3;
+}
+.modal-body{
+  /*background-color: #FFE2B3;*/
+}
+.modal-header button{
+  color: #FFE2B3;
 }
