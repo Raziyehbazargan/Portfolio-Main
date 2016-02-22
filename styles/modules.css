@@ -5,7 +5,7 @@
 }
 .row-content{
     margin: 0px auto;
-    padding: 500px 0px 50px 0px;
+    padding: 700px 0px 50px 0px;
     border-bottom: 1px ridge;
     min-height: 400px;
 }
@@ -88,8 +88,12 @@
   background: white url('../img/bgcolor.png') repeat-x center;
 }*/
 #profilePic{
-  width: 25%;
-  border-radius: 50%;
+  width: 30%;
+  border-radius: 20%;
+  display: none;
+}
+.modal-body{
+  display: none;
 }
 .skills{
   color: #ee8e68;
