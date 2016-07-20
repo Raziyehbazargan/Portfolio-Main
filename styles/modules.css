@@ -1,0 +1,115 @@
+
+.row-header{
+    margin: 0px auto;
+    padding: 0px auto;
+}
+.row-content{
+    margin: 0px auto;
+    padding: 700px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+.row-footer{
+    background-color: #222;
+    margin: 0px auto;
+    padding: 20px 0px 40px 0px;
+    color:#FFFFFF;
+    text-align: justify;
+}
+.row-footer img{
+  border-radius: 50%;
+  width: 10%;
+  border: 4px solid white;
+}
+.row-footer ul li a{
+  font-family: 'Open Sans',Arial,sans-serif;
+  color: #a5cecd;
+}
+.row-footer ul li a:hover{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.copyRight{
+    color: #a5cecd;
+    font-weight: 400;
+}
+.jumbotron
+{
+    padding: 450px 0px 0px 40px;
+    margin: 0px auto;
+    background:black;
+    background-position: center;
+    background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+     url('../img/1.jpg');
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 2px 1px 2px #888888;
+    color:#FFFFFF;
+}
+
+.jumbotron:hover{
+  background-image:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+   url('../img/1.jpg');
+}
+
+.title{
+  /*font-family: 'Marck Script', cursive;*/
+}
+.navbar{
+  background: black;
+}
+.div_project{
+  border: 1px solid #fbcbcb;
+  height: 250px;
+}
+.well button{
+  margin-bottom: 5px;
+}
+.anchorSpaceBotton{
+  margin-bottom: 15px;
+}
+
+#mainNav,#textPageLaod{
+  display: none;
+}
+#textPageLaod{
+  font-size: 500%;
+}
+/*#projects{
+  background: white url('../img/bgcolor.png') repeat-x center;
+}*/
+#profilePic{
+  width: 30%;
+  border-radius: 20%;
+  display: none;
+}
+.modal-body{
+  display: none;
+}
+.skills{
+  color: #ee8e68;
+  font-weight: 400;
+}
+/*#map{
+  width: 500px;
+  height: 100px;
+}*/
+.modal-header{
+  background-color: #1F3642;
+  color: #FFE2B3;
+}
+.modal-body{
+  /*background-color: #FFE2B3;*/
+}
+.modal-header button{
+  color: #FFE2B3;
+}
