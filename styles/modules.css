@@ -113,3 +113,38 @@
 .modal-header button{
   color: #FFE2B3;
 }
+
+.box {
+  position: relative;
+  cursor:pointer;
+}
+
+.overlay {
+  position: relative;
+}
+
+.overlay:before{
+  position: absolute;
+  content:" ";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display: none;
+  z-index:0;
+}
+
+.overlay:hover:before{
+  display: block;
+}
+
+.gray:before {
+  background-color: rgba(96,96,96,0.2);
+}
+
+
+main{
+  background-image:url(../img/bkPattern.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+}

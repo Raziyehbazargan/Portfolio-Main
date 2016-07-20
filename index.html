@@ -10,6 +10,7 @@
     <link href="vendor/styles/bootstrap-social.css" rel="stylesheet">
     <link href="vendor/styles/font-awesome.min.css" rel="stylesheet">
     <link href="styles/modules.css" rel="stylesheet">
+    <link href="styles/layouts.css" rel="stylesheet">
     <link rel="shortcut icon" href="img/nameLogo.ico"/>
 
   </head>
@@ -24,7 +25,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><img src="img/nameLogo.png" style="max-width:60%;"></a>
+          <a class="navbar-brand" href="index.html"><img src="img/nameLogo.png" style="max-width:70%;"></a>
         </div>
 
         <div id="navbar" class="navbar-collapse collapse">
@@ -34,7 +35,7 @@
             <li><a href="files/Raziyeh_bazargan_CV.pdf" target="_blank"><span class="glyphicon glyphicon-paperclip"></span> Resume</a></li>
             <li><a href="#" data-toggle="modal" data-target="#contactModal"><span class="glyphicon glyphicon-earphone"></span> Contact</a></li>
           </ul>
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right" id="navbarRight">
             <li><a href="https://github.com/raziyehbazargan" target="_blank"><span class="fa fa-github fa-lg"></span></a></li>
             <li><a href="https://www.linkedin.com/in/raziyehbazargan" target="_blank"><span class="fa fa-linkedin fa-lg"></span></a></li>
             <li><a href="https://twitter.com/RaziyehBazargan" target="_blank"><span class="fa fa-twitter fa-lg"></span></a></li>
@@ -43,7 +44,7 @@
       </div>
     </nav>
 
-    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+   <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
@@ -52,10 +53,12 @@
           </div>
           <div class="modal-body">
             <div class="row">
-              <img id="profilePic" src="img/rozi-profile.jpg" alt="" class="col-md-3 img-responsive "/>
-              <img  src="img/staticmap.png" alt="" class="img-thumbnail"/><br/>
-            </div>
-            <div class="row">
+              <div class="col-xs-3 col-sm-3">
+                <img id="profilePic" src="img/rozi-profile.jpg" alt="profile Image" class="img-responsive" style="width:100% !important;"/>
+              </div>
+              <div class="col-xs-9 col-sm-9">
+               <img  src="img/staticmap.png" alt="" class="img-thumbnail"/>
+              </div>
             </div>
           </div>
           <div class="modal-footer">
@@ -85,12 +88,18 @@
       <div class="container">
         <div class="row" id="projects" style="margin:50px 0;">
           <div class="col-xs-12 col-sm-offset-1 col-sm-6">
-            <img class="img-responsive img-thumbnail" src="img/pingle.png" alt="BabySafe" style="margin-bottom:10px;"/>
+            <div class="box overlay gray">
+             <img class="img-responsive img-thumbnail" src="img/pingle.png" alt="BabySafe" />
+           </div>
           </div>
-          <div class="col-xs-12 col-sm-3">
-              <img class="img-responsive img-thumbnail" src="img/ractrac.png" alt="rackTrack" style="margin-bottom:10px;"/>
+          <div class="col-xs-12 col-sm-4">
+            <div class="box overlay gray">
+              <img class="img-responsive img-thumbnail" src="img/ractrac.png" alt="rackTrack" />
+            </div>
+            <br/>
+            <div class="box overlay gray">
               <img class="img-responsive img-thumbnail" src="img/babysafe.png" alt="rackTrack" />
-              <!-- <img class="img-responsive img-thumbnail" src="img/ractrac.png" alt="rackTrack" /> -->
+            </div>
           </div>
         </div>
       </div>
@@ -105,13 +114,13 @@
           <div class="col-xs-4 col-xs-offset-1 col-sm-2 col-sm-offset-1">
             <h3>Skills</h3>
             <p class="skills">
-              HTML5 / CSS3 </br>
-              Responsive Design</br>
-              JavaScript </br>
-              jQuery </br>
-              Angular.js</br>
-              Bootstrap </br>
-              Ajax / Json</br>
+              HTML5 / CSS3<br/>
+              Bootstrap<br/>
+              JavaScript / C# (beginner) <br/>
+              jQuery / Angular.js<br/>
+              AJAX / JSON<br/>
+              GitHub / TFVC / Gulp / Grunt / Bower<br/>
+              SQL Server<br/>
             </p>
           </div>
           <div class="col-xs-1 col-sm-5">
