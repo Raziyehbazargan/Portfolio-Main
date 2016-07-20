@@ -27,3 +27,8 @@ function initMap(){
     zoom: 8
   });
 };
+
+$('#contactModal').on('shown.bs.modal', function () {
+  $('#profilePic').slideDown('fast');
+  $('.modal-body').slideDown('slow');
+});

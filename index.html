@@ -10,6 +10,8 @@
     <link href="vendor/styles/bootstrap-social.css" rel="stylesheet">
     <link href="vendor/styles/font-awesome.min.css" rel="stylesheet">
     <link href="styles/modules.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/nameLogo.ico"/>
+
   </head>
   <body>
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="mainNav">
@@ -22,21 +24,18 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">My Portfolio
-            <!-- <img src="#"> -->
-          </a>
+          <a class="navbar-brand" href="index.html"><img src="img/nameLogo.png" style="max-width:60%;"></a>
         </div>
 
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#aboutMe" class="scroll"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> About</a></li>
             <li><a href="#projects" class="scroll"><span class="glyphicon glyphicon-book"></span> Portfolio</a></li>
-            <li><a href="files/Raziyeh_bazargan_CV.pdf"><span class="glyphicon glyphicon-paperclip"></span> Resume</a></li>
+            <li><a href="files/Raziyeh_bazargan_CV.pdf" target="_blank"><span class="glyphicon glyphicon-paperclip"></span> Resume</a></li>
             <li><a href="#" data-toggle="modal" data-target="#contactModal"><span class="glyphicon glyphicon-earphone"></span> Contact</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="https://github.com/raziyehbazargan" target="_blank"><span class="fa fa-github fa-lg"></span></a></li>
-            <li><a href="https://github.com/raziyehbazargan" target="_blank"><span class="fa fa-twitter fa-lg"></span></a></li>
             <li><a href="https://www.linkedin.com/in/raziyehbazargan" target="_blank"><span class="fa fa-linkedin fa-lg"></span></a></li>
             <li><a href="https://github.com/raziyehbazargan" target="_blank"><span class="fa fa-google-plus fa-lg"></span></a></li>
             <li><a href="https://github.com/raziyehbazargan" target="_blank"><span class="fa fa-facebook fa-lg"></span></a></li>
@@ -55,17 +54,22 @@
           </div>
           <div class="modal-body">
             <div class="row">
-              <img id="profilePic" src="img/rozi-profile.jpg" alt="" class="col-md-4"/><br/>
-              <form class="form-horizontal" action="index.html" method="post" role="form">
-
-              </form>
+              <img id="profilePic" src="img/rozi-profile.jpg" alt="" class="col-md-3 img-responsive "/>
+              <img  src="img/staticmap.png" alt="" class="img-thumbnail"/><br/>
             </div>
-            <!-- <div class="row">
-                <div class="col-xs-12 col-sm-12" id="map" style="width: 100%;">
-
-                </div>
-
-            </div> -->
+            <div class="row">
+            </div>
+          </div>
+          <div class="modal-footer">
+            <div class="pull-left">
+              <a class="btn btn-social-icon btn-github"><span class="fa fa-github"></span></a>
+              <a class="btn btn-social-icon btn-linkedin"><span class="fa fa-linkedin"></span></a>
+              <a class="btn btn-social-icon btn-instagram"><span class="fa fa-instagram"></span></a>
+              <a class="btn btn-social-icon btn-google"><span class="fa fa-google-plus"></span></a>
+            </div>
+              <div class="btn-group pull-right" role="group" aria-label="...">
+                <button type="button" class="btn btn-danger">Cancel</button>
+              </div>
           </div>
         </div>
       </div>
@@ -83,63 +87,17 @@
       </div>
     </header>
 
-    <main >
-      <div class="row row-content" id="projects">
-        <div class="col-xs-12">
-          <!-- <div class="col-xs-12 col-sm-4" style="border-right:1px solid black;">
-            <img class="img-responsive" src="img/project-racktrack.jpg" alt="rackTrack" />
-            <a class="btn btn-success col-sm-offset-4 anchorSpaceBotton" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Read More</a>
-
-            <div class="collapse" id="collapseExample">
-              <div class="well">
-                <p>A web site that allows you to see all nearby bike racks. RacTrac uses data from the city(data.seattle.gov) to display nearby bike racks based on your location.</p>
-                <button type="button" class="btn btn-danger btn-xs">Html / css</button>
-                <button type="button" class="btn btn-danger btn-xs">javaScript</button>
-                <button type="button" class="btn btn-danger btn-xs">jQuery</button>
-                <button type="button" class="btn btn-danger btn-xs">google map API</button>
-                <button type="button" class="btn btn-danger btn-xs">JSON</button>
-                <button type="button" class="btn btn-danger btn-xs">ajax</button>
-              </div>
-            </div>
-          </div> -->
-
-          <!-- <div class="col-xs-12 col-sm-4">
-            <img class="img-responsive" src="img/project-baby.jpg" alt="BabySafe" />
-            <a class="btn btn-success col-sm-offset-4 anchorSpaceBotton" role="button" data-toggle="collapse" href="#read-project-baby" aria-expanded="false" aria-controls="collapseExample">Read More</a>
-
-            <div class="collapse" id="read-project-baby">
-              <div class="well">
-                <p>A web site that allows you to see all nearby bike racks. RacTrac uses data from the city(data.seattle.gov) to display nearby bike racks based on your location.</p>
-                <button type="button" class="btn btn-danger btn-xs">Html / css</button>
-                <button type="button" class="btn btn-danger btn-xs">javaScript</button>
-                <button type="button" class="btn btn-danger btn-xs">jQuery</button>
-                <button type="button" class="btn btn-danger btn-xs">page.js</button>
-                <button type="button" class="btn btn-danger btn-xs">handlebars.js</button>
-                <button type="button" class="btn btn-danger btn-xs">JSON</button>
-                <button type="button" class="btn btn-danger btn-xs">AJAX</button>
-                <button type="button" class="btn btn-danger btn-xs">bootstrap</button>
-              </div>
-            </div>
-          </div> -->
-
-          <!-- <div class="col-xs-12 col-sm-4" style="border-left:1px solid black;">
-            <img class="img-responsive" src="img/project-baby.jpg" alt="BabySafe" />
-            <a class="btn btn-success col-sm-offset-4 anchorSpaceBotton" role="button" data-toggle="collapse" href="#read-project-3" aria-expanded="false" aria-controls="collapseExample">Read More</a>
-
-            <div class="collapse" id="read-project-3">
-              <div class="well">
-                <p>A web site that allows you to see all nearby bike racks. RacTrac uses data from the city(data.seattle.gov) to display nearby bike racks based on your location.</p>
-                <button type="button" class="btn btn-danger btn-xs">Html / css</button>
-                <button type="button" class="btn btn-danger btn-xs">javaScript</button>
-                <button type="button" class="btn btn-danger btn-xs">jQuery</button>
-                <button type="button" class="btn btn-danger btn-xs">page.js</button>
-                <button type="button" class="btn btn-danger btn-xs">handlebars.js</button>
-                <button type="button" class="btn btn-danger btn-xs">JSON</button>
-                <button type="button" class="btn btn-danger btn-xs">AJAX</button>
-                <button type="button" class="btn btn-danger btn-xs">bootstrap</button>
-              </div>
-            </div>
-          </div> -->
+    <main>
+      <div class="container">
+        <div class="row" id="projects" style="margin:50px 0;">
+          <div class="col-xs-12 col-sm-offset-1 col-sm-6">
+            <img class="img-responsive img-thumbnail" src="img/pingle.png" alt="BabySafe" style="margin-bottom:10px;"/>
+          </div>
+          <div class="col-xs-12 col-sm-3">
+              <img class="img-responsive img-thumbnail" src="img/ractrac.png" alt="rackTrack" style="margin-bottom:10px;"/>
+              <img class="img-responsive img-thumbnail" src="img/babysafe.png" alt="rackTrack" />
+              <!-- <img class="img-responsive img-thumbnail" src="img/ractrac.png" alt="rackTrack" /> -->
+          </div>
         </div>
       </div>
     </main>
@@ -147,7 +105,7 @@
       <div class="container">
         <div class="row" id="aboutMe">
           <div class="col-xs-6 col-sm-4">
-            <h3>Ab <img src="img/rozi-profile.jpg" alt="" /> ut </h3>
+            <h3>Ab <img src="img/rozi-profile.jpg" alt="RaziyehBazargan" title="RaziyehBazargan" /> ut </h3>
             <p style="color:#9d9d9d;">I am a web developer from Bellevue, I enjoy building everything from small business sites to rich interactive web apps. If you are a business seeking a web presence or an employer looking to hire, you can get in touch with me here.</p>
           </div>
           <div class="col-xs-4 col-xs-offset-1 col-sm-2 col-sm-offset-1">
@@ -173,7 +131,7 @@
             <ul class="list-inline">
               <li class="active"><a href="#aboutMe" class="scroll">About</a></li>|
               <li><a href="#projects" class="scroll">Portfolio</a></li>|
-              <li><a href="files/Raziyeh_bazargan_CV.pdf">Resume</a></li>|
+              <li><a href="files/Raziyeh_bazargan_CV.pdf" target="_blank">Resume</a></li>|
               <li><a href="#" data-toggle="modal" data-target="#contactModal"> Contact</a></li>
             </ul>
           </div>
@@ -211,3 +169,59 @@
 
   </body>
 </html>
+
+
+<!-- <div class="col-xs-12 col-sm-4" style="border-right:1px solid black;">
+  <img class="img-responsive" src="img/project-racktrack.jpg" alt="rackTrack" />
+  <a class="btn btn-success col-sm-offset-4 anchorSpaceBotton" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Read More</a>
+
+  <div class="collapse" id="collapseExample">
+    <div class="well">
+      <p>A web site that allows you to see all nearby bike racks. RacTrac uses data from the city(data.seattle.gov) to display nearby bike racks based on your location.</p>
+      <button type="button" class="btn btn-danger btn-xs">Html / css</button>
+      <button type="button" class="btn btn-danger btn-xs">javaScript</button>
+      <button type="button" class="btn btn-danger btn-xs">jQuery</button>
+      <button type="button" class="btn btn-danger btn-xs">google map API</button>
+      <button type="button" class="btn btn-danger btn-xs">JSON</button>
+      <button type="button" class="btn btn-danger btn-xs">ajax</button>
+    </div>
+  </div>
+</div> -->
+
+<!-- <div class="col-xs-12 col-sm-4">
+  <img class="img-responsive" src="img/project-baby.jpg" alt="BabySafe" />
+  <a class="btn btn-success col-sm-offset-4 anchorSpaceBotton" role="button" data-toggle="collapse" href="#read-project-baby" aria-expanded="false" aria-controls="collapseExample">Read More</a>
+
+  <div class="collapse" id="read-project-baby">
+    <div class="well">
+      <p>A web site that allows you to see all nearby bike racks. RacTrac uses data from the city(data.seattle.gov) to display nearby bike racks based on your location.</p>
+      <button type="button" class="btn btn-danger btn-xs">Html / css</button>
+      <button type="button" class="btn btn-danger btn-xs">javaScript</button>
+      <button type="button" class="btn btn-danger btn-xs">jQuery</button>
+      <button type="button" class="btn btn-danger btn-xs">page.js</button>
+      <button type="button" class="btn btn-danger btn-xs">handlebars.js</button>
+      <button type="button" class="btn btn-danger btn-xs">JSON</button>
+      <button type="button" class="btn btn-danger btn-xs">AJAX</button>
+      <button type="button" class="btn btn-danger btn-xs">bootstrap</button>
+    </div>
+  </div>
+</div> -->
+
+<!-- <div class="col-xs-12 col-sm-4" style="border-left:1px solid black;">
+  <img class="img-responsive" src="img/project-baby.jpg" alt="BabySafe" />
+  <a class="btn btn-success col-sm-offset-4 anchorSpaceBotton" role="button" data-toggle="collapse" href="#read-project-3" aria-expanded="false" aria-controls="collapseExample">Read More</a>
+
+  <div class="collapse" id="read-project-3">
+    <div class="well">
+      <p>A web site that allows you to see all nearby bike racks. RacTrac uses data from the city(data.seattle.gov) to display nearby bike racks based on your location.</p>
+      <button type="button" class="btn btn-danger btn-xs">Html / css</button>
+      <button type="button" class="btn btn-danger btn-xs">javaScript</button>
+      <button type="button" class="btn btn-danger btn-xs">jQuery</button>
+      <button type="button" class="btn btn-danger btn-xs">page.js</button>
+      <button type="button" class="btn btn-danger btn-xs">handlebars.js</button>
+      <button type="button" class="btn btn-danger btn-xs">JSON</button>
+      <button type="button" class="btn btn-danger btn-xs">AJAX</button>
+      <button type="button" class="btn btn-danger btn-xs">bootstrap</button>
+    </div>
+  </div>
+</div> -->
