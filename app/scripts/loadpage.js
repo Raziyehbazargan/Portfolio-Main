@@ -32,3 +32,16 @@ $('#contactModal').on('shown.bs.modal', function () {
   $('#profilePic').slideDown('fast');
   $('.modal-body').slideDown('slow');
 });
+
+
+		
+$(document).ready(function(){
+
+	$("a.transition").click(function(event){
+		event.preventDefault();
+		linkLocation = this.href;
+		$("body").fadeOut(1000, function(){
+			window.location = linkLocation;
+		});      
+	});
+});
