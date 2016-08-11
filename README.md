@@ -1,2 +1,2 @@
 # Portfolio-Main
-Using Html, CSS, Javascript, Bootstrap, jQuery
+Using Html, CSS, Bootstrap, jQuery and AngularJs.
