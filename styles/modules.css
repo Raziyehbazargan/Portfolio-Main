@@ -5,9 +5,8 @@
 }
 .row-content{
     margin: 0px auto;
-    padding: 700px 0px 50px 0px;
+    padding: 30px 0px 50px 0px;
     border-bottom: 1px ridge;
-    min-height: 400px;
 }
 .row-footer{
     background-color: #222;
@@ -35,37 +34,39 @@
 }
 .jumbotron
 {
-    padding: 450px 0px 0px 40px;
-    margin: 0px auto;
-    background:black;
+    padding: 150px 0px 0px 40px;
+/*    margin: 0px auto;*/
+    background:#fff;
     background-position: center;
     background-image:
-    linear-gradient(
+    /*linear-gradient(
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
-    ),
+    ),*/
+/*
      url('../img/1.jpg');
     background-size: cover;
     position: relative;
     overflow: hidden;
-    box-shadow: 2px 1px 2px #888888;
+*/
+    /*box-shadow: 2px 1px 2px #888888;*/
     color:#FFFFFF;
 }
 
-.jumbotron:hover{
+/*.jumbotron:hover{
   background-image:
   linear-gradient(
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   ),
    url('../img/1.jpg');
-}
+}*/
 
 .title{
   /*font-family: 'Marck Script', cursive;*/
 }
 .navbar{
-  background: black;
+  background: transparent;
 }
 .div_project{
   border: 1px solid #fbcbcb;
@@ -144,7 +145,316 @@
 
 
 main{
-  background-image:url(../img/bkPattern.jpg);
-  background-repeat:no-repeat;
-  background-size:cover;
+  /*background-image:url(../img/bkPattern.jpg);*/
+  /*background-repeat:no-repeat;
+  background-size:cover;*/
+}
+
+#navbar{
+  font-family: 'Walter Turncoat', cursive;
+}
+.navbar-inverse{
+  border-color:transparent!important;
+}
+
+
+
+
+body {
+/*  background: #22BDA0;*/
+
+}
+.hero-image {
+  position: absolute;
+  bottom: -20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 56.25em
+}
+
+.hero-image-container {
+  animation: hero-fade-in 1s 0.5s linear forwards;
+  opacity: 0;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 56.25em;
+  height: 26em
+}
+
+@keyframes hero-fade-in {
+  100% {
+    opacity: 1
+  }
+}
+
+.window-background {
+  animation: background-color 5s cubic-bezier(0.81,-0.46,0.19,1.33) infinite;
+  position: absolute;
+  height: 40em;
+  width: 30em;
+  top: 0
+}
+
+.screen-container {
+  animation: move-emails 5s infinite ease-out;
+  position: absolute;
+  width: 7.6em;
+  height: 6em;
+  bottom: 8.66em;
+  background: #fff url(http://www.w3cplus.com/sites/default/files/blogs/2016/1604/emails.svg) repeat-y;
+  background-size: 100% auto;
+  left: 50%;
+  transform: translate(-16.4%,-10%)
+}
+
+.notification {
+  animation: move-notification 5s infinite cubic-bezier(0.81,-0.46,0.19,1.33);
+  position: absolute;
+  bottom: 62%;
+  left: 65%;
+  width: 4%;
+  height: 3%;
+  background: #fff url(http://www.w3cplus.com/sites/default/files/blogs/2016/1604/notification.svg);
+  background-size: 100%
+}
+
+.moon {
+  animation: moon 5s infinite linear;
+  position: absolute;
+  left: 25%;
+  top: 3%;
+  background: url(http://www.w3cplus.com/sites/default/files/blogs/2016/1604/moon.svg) no-repeat;
+  background-size: 100%;
+  height: 25%;
+  width: 8%;
+  transform-origin: 30% 350%
+}
+
+@keyframes background-color {
+  0% {
+    background: #011
+  }
+
+  20%,30% {
+    background: #5ab6fc
+  }
+
+  100% {
+    background: #011
+  }
+}
+
+@keyframes move-emails {
+  0%,24% {
+    background-position: 0 -4.6em;
+    -webkit-animation-timing-function: cubic-bezier(0.81,-0.46,0.19,1.33);
+    animation-timing-function: cubic-bezier(0.81,-0.46,0.19,1.33)
+  }
+
+  34%,60% {
+    background-position: 0 0
+  }
+
+  90%,100% {
+    background-position: 0 -78%
+  }
+}
+
+@keyframes move-notification {
+  0%,20% {
+    -webkit-transform: translateX(0.25em);
+    transform: translateX(0.25em);
+    opacity: 0
+  }
+
+  50%,58% {
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1
+  }
+
+  70%,100% {
+    -webkit-transform: translateX(-0.25em);
+    transform: translateX(-0.25em);
+    opacity: 0
+  }
+}
+
+
+@keyframes moon {
+  0% {
+    -webkit-transform: none;
+    transform: none;
+    -webkit-animation-timing-function: cubic-bezier(0.25,0,0.41,1);
+    animation-timing-function: cubic-bezier(0.25,0,0.41,1)
+  }
+
+  100% {
+    -webkit-transform: rotateZ(-360deg);
+    transform: rotateZ(-360deg);
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear
+  }
+}
+
+
+
+/*Resume page*/
+/*----------------------------------IDs------------------------------*/
+
+    #socialIcons a span{
+        color:#fff;
+    }
+    #socialIcons a span:hover{
+        color:#ec8c54;
+    }
+
+    #contactInf h6{
+        color: #049DD0;
+        font-family: sans-serif;
+    }
+
+         #contactInf h6 span{
+            color: #111;
+            font-family: sans-serif;
+        }
+
+    #about{
+        margin-top:30px;
+        margin-bottom: 30px;
+
+    }
+
+    #pdf , #coverLetter{
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        background-color: #ec8c54;
+    }
+
+    #personalInf,#Portfolio,#education,#skills,#end{
+         border-top: 5px solid #EFEFEF;
+         margin-top:30px;
+         margin-bottom: 30px;
+         padding-top: 30px;
+         padding-bottom: 30px;
+    }
+
+/*----------------------------------CLASSES------------------------------*/
+
+    .media-body h4,h6,.title{
+        font-family: 'Fjalla One', sans-serif;
+    }
+
+    .media-body h6, .companyName{
+        color: #049DD0;
+    }
+
+    .jobTitle{
+        color: #777;
+        font-weight: 200;
+        line-height: 10px;
+    }
+
+    .text{
+        font-weight: 200;
+    }
+
+    .skillItems{
+        color: #1d901d;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.18);
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+        .skillItems:hover{
+            color: #1d91d0;
+            font-weight: 700;
+        }
+
+.menuItem{
+		text-align: center;
+		font-weight: 700;
+		font-family: 'Walter Turncoat', cursive;
+		padding:30px;
+		min-height:100px;
+		max-height:100px;
+	
+}
+	.menuItem h5{
+		font-size: 25px;
+	}
+	.menuItem h5 a{
+		color:#fff;
+		
+	}	
+.workImg:hover{
+	-webkit-box-shadow: 3px 10px 38px 10px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 10px 38px 10px rgba(0,0,0,0.75);
+box-shadow: 3px 10px 38px 10px rgba(0,0,0,0.75);
+	cursor: pointer;
+}
+
+ 
+/*-----------------------------------------css classes for hover on image and show description on images
+ .box {  
+    cursor: pointer;  
+    height: 300px;  
+    float: left;  
+    margin: 5px;  
+    position: relative;  
+    overflow: hidden;  
+    width: 300px;  
+  
+}   
+ .box img {  
+    position: absolute;  
+    left: 0;  
+    -webkit-transition: all 300ms ease-out;  
+    -moz-transition: all 300ms ease-out;  
+    -o-transition: all 300ms ease-out;  
+    -ms-transition: all 300ms ease-out;  
+    transition: all 300ms ease-out;  
+}  
+
+
+.box .caption {  
+    font-family: Tahoma;
+    font-size: .5em;
+    background-color: rgba(0,0,0,0.8);  
+    position: absolute;  
+    color: #fff;  
+    z-index: 100;  
+    -webkit-transition: all 300ms ease-out;  
+    -moz-transition: all 300ms ease-out;  
+    -o-transition: all 300ms ease-out;  
+    -ms-transition: all 300ms ease-out;  
+    transition: all 300ms ease-out;  
+    left: 0;  
+    opacity: 0;  
+    width: 300px;  
+    height: 300px;  
+    text-align: left;  
+    padding: 15px;
+}  
+
+ 
+
+ .box:hover .fade-caption {  
+    opacity: 1;  
+}  */
+
+/*-----*/
+.item:hover img{
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#workImgPingle,#workImgBabySafe,#workImgPortfolio,#workImgRactrac{
+/*	max-width: 250px;*/
 }

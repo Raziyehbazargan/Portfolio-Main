@@ -3,4 +3,16 @@
   #navbarRight{
     display: none !important;
   }
+	.aboutText{
+		font-size: 15px !important;
+		
+	}
+	#textInf{
+		font-size: 12px !important;
+		padding: 2px !important;
+		margin-top: 2px; !important;
+	}
+	#indexPadding{
+		padding-top: 30px !important;
+	}
 }

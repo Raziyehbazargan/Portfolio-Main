@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	
+  	<head>
+    <meta charset="utf-8">
+    <meta http-equiv="=X-UA-Compatible" content="IE=edge">
+    <meta name="Viewport" content="width=device-width,initial-scale=1">
+    <title>Raziyeh Bazargan</title>
+	<link href='https://fonts.googleapis.com/css?family=Poiret+One|Nunito' rel='stylesheet' type='text/css'>
+    <link href="vendor/styles/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/styles/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="vendor/styles/bootstrap-social.css" rel="stylesheet">
+    <link href="vendor/styles/font-awesome.min.css" rel="stylesheet">
+    <link href="styles/modules.css" rel="stylesheet">
+    <link href="styles/layouts.css" rel="stylesheet">
+		
+    <link rel="shortcut icon" href="img/nameLogo.ico"/>
+  </head>
+	
+	<body>
+		<main class="container-fluid" style="height:100vh;">
+			<div class="row" style="height:100%;">
+				<div class="col-xs-6 col-md-6" style="background-color:#d9912a;height:100%">
+					<div class="text-left" style="margin-top:20px;color:#fff">
+						<a class="transition"  href="index.html" style="color:#fff">
+							<i class="pull-leftt fa fa-arrow-circle-left fa-3x" aria-hidden="true"></i>
+						</a>
+					</div>
+					<div class="text-center" style="background-color:#d9912a;">
+						<img class="img-responsive img-circle" src="img/rozi-profile.jpg" style="max-height:160px;margin-top:14%;margin-left:auto;margin-right:auto;">
+						<br/>
+						<h5 class="aboutText" style="color:#fff;font-size: 25px;font-family: fantasy;">Raziyeh Bazargan</h5>
+						<hr style="max-width:220px;margin-top:10px;margin-bottom:15px;">
+						<h5 class="aboutText" style="color:#fff;font-size: 25px;font-family: fantasy;">Web Developer</h5>
+
+					</div>
+				</div>
+				<div class="col-xs-6 col-md-6" style="background-color:#FFF;height:100%">
+					<div class="text-right" style="margin-top:20px;color:#d9912a;">
+						<a class="transition"  href="contact.html" style="color:#d9912a">
+							<i class="pull-right fa fa-arrow-circle-right fa-3x" aria-hidden="true"></i>
+						</a>
+					</div>
+					 <p class="" id="textInf"
+					style="line-height: 30px;font-size: 18px;color: #8c580d;font-family: 'Fredericka the Great', cursive;margin-top:50%; padding:0 50px;">
+					  I am a web developer from Bellevue, I enjoy building everything from small business sites to rich interactive web apps. If you are a business seeking a web presence or an employer looking to hire, you can get in touch with me 
+						 <a href="contact.html" style="color:#d9912a;">here</a>.
+				  </p>
+				</div>
+			</div>
+		</main>
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				//$("body").css("display", "none");
+				//$("body").fadeIn(3000);
+
+				$("a.transition").click(function(event){
+					event.preventDefault();
+					linkLocation = this.href;
+					$("body").fadeOut(1000, function(){
+						window.location = linkLocation;
+					});      
+				});
+			});
+		</script>
+	</body>
+</html>
