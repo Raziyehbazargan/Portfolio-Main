@@ -1,0 +1,37 @@
+{
+  "name": "new-version-fullstack-portfolio",
+  "version": "1.0.0",
+  "description": "Personal Portfolio",
+  "main": "karma.conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "portfolio",
+    "Nodejs",
+    "resume"
+  ],
+  "author": "Raziyeh Bazargan [Raziyeh.bazargan@gmail.com]",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-animate": "^1.6.1",
+    "angular-route": "^1.6.1",
+    "angular-touch": "^1.6.1",
+    "angular-ui-bootstrap": "^2.3.1",
+    "angular-ui-router": "^0.3.2",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "bluebird": "^3.4.7",
+    "cors": "^2.8.1",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "debug": "^2.5.2",
+    "eslint": "^3.12.2",
+    "morgan": "^1.7.0"
+  }
+}
