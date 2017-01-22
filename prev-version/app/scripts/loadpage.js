@@ -6,19 +6,17 @@ $(window).on('load',function(){
 
 // smoth scroll
 $('.scroll').click(function() {
- if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-   var target = $(this.hash);
-   target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-   if (target.length) {
-     $('html,body').animate({
-       scrollTop: target.offset().top
-     }, 1100); // The number here represents the speed of the scroll in milliseconds
-     return false;
-   }
- }
+  if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    if (target.length) {
+      $('html,body').animate({
+        scrollTop: target.offset().top
+      }, 1100); // The number here represents the speed of the scroll in milliseconds
+      return false;
+    }
+  }
 });
-
-
 
 function initMap(){
   var map;
@@ -34,14 +32,13 @@ $('#contactModal').on('shown.bs.modal', function () {
 });
 
 
-		
-$(document).ready(function(){
 
-	$("a.transition").click(function(event){
-		event.preventDefault();
-		linkLocation = this.href;
-		$("body").fadeOut(1000, function(){
-			window.location = linkLocation;
-		});      
-	});
+$(document).ready(function(){
+  $("a.transition").click(function(event){
+    event.preventDefault();
+    linkLocation = this.href;
+  	$("body").fadeOut(1000, function(){
+    window.location = linkLocation;
+  	});
+  });
 });
